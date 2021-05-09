@@ -1,0 +1,35 @@
+#cover{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) rotate3d(0,0,50 ,30deg);
+
+    transform: perspective(200px)translate3d(50px,50px,-50px);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+#content:hover{
+    transform: perspective(300px) rotate3d(0,0,50 ,30deg);
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin:0px  100px;
+    /* transition-property: width; */
+    transition-property: background-color ,width ,transform;
+    transition-duration: 1s;
+    transition-delay: 300ms;
+    transition-timing-function: ease;
+}
+#div1:hover{
+    width: 200px;
+    background-color: blue;
+    transform: perspective(200px)rotate3d(50px,50px,-50px,45deg);
+}

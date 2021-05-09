@@ -1,0 +1,14 @@
+#bg{
+    background-image: url('images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: 500px 400px;  */
+    background-size: contain;
+    background-attachment: fixed;
+}
+/* body{
+    background-color: black;
+}
+p{
+    color: white;
+} */

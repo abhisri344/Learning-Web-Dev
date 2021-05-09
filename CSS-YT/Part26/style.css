@@ -1,0 +1,25 @@
+.flexcontainer{
+    background-color: indianred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    height: 70vh;
+}
+.flexchild{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+}
+#one{
+    flex-grow: 1;
+}
+#two{
+    flex-grow: 1;
+}
+#three{
+    flex-grow: 3;
+}

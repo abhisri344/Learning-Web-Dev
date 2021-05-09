@@ -1,0 +1,27 @@
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+p::first-line{
+    font-size: 35px;
+    color: blue;
+}
+h1::before{
+    content: url('images/inkedin.png');
+}
+h1::after{
+    content: " Added after";
+}
+::selection{
+    background-color: yellow;
+    color: purple;
+}
+.display{
+    display: inline-block;
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+}
+#div1{
+    display: none;
+}

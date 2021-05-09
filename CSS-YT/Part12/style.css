@@ -1,0 +1,18 @@
+:root{
+    --btn-color: lightseagreen;
+    --text-color: white;
+}
+
+
+#fun{
+    background-color: teal;
+    height: 200px;
+    width: calc(100% - 200px);
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+#div1{
+    background-color: blueviolet;
+    width: 600px;
+    height: 200px;
+}
+#div2{
+    background-color: chocolate;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: border-box;
+
+} 
+#green{
+    color: green;
+    font-size: 30px;
+}
+#blue{
+    color: red;
+}
+#initial{
+    color: initial;
+}
+#inherit{
+    color: inherit;
+}

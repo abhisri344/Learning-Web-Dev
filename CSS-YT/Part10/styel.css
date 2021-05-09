@@ -1,0 +1,12 @@
+#overflow{
+    background-color: whitesmoke;
+    border: 2px solid red;
+    width: 500px;
+    height: 300px ;
+    overflow: scroll;
+    resize: vertical;
+}
+textarea{
+    margin-top: 10px;
+    resize: none;
+}

@@ -1,0 +1,22 @@
+@font-face{
+    font-family: abc;
+    src: url('fonts/Aclonica.ttf');
+}
+h1{
+    font-weight:200;
+    font-family: 'Bangers', cursive;
+}
+p{
+    font-size: 25px;
+
+    /* font-weight: bold; */
+
+    font-style: italic;
+
+    font-variant: small-caps;
+
+    /* font-family: 'Langar', cursive; */
+
+    font-family: abc;
+
+}

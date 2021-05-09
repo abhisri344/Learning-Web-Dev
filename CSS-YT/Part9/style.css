@@ -1,0 +1,13 @@
+#sprite{
+    height: 182px;
+    background-image: url('images/sprite.png');
+    background-repeat: no-repeat;
+    /* background-position: 0px -190px; */
+
+}
+#div1{
+    margin-top: 20px;
+    height: 400px;
+    border: 2px solid gray;
+    background-image: radial-gradient(circle, green 20%,blue 35%,red 45%);
+}

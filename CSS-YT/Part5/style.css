@@ -1,0 +1,55 @@
+#text{
+    width: 500px;
+    border: 1px solid black;
+    
+    /* color: blue;
+    text-align: justify; */
+
+    /* direction: rtl; */
+
+    /* text-decoration: underline; */
+
+    text-transform: uppercase;
+    
+    line-height: 35px;
+
+    text-indent: 50px;
+
+    letter-spacing: 3px;
+
+    word-spacing: 10px;
+
+    /* white-space: pre; */
+
+}
+#shadow{
+    font-size: 30px;
+    text-shadow: -3px -6px 4px red;
+}
+
+#write{
+    writing-mode: vertical-lr;
+}
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
+/* img{
+    width: 120px;
+    height: 80px;
+    vertical-align: middle;
+} */

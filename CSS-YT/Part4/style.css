@@ -1,0 +1,41 @@
+/* #border{
+    /* border-style: solid dashed none ridge;
+    border-width: 5px;
+    border-color: blue;  */
+    /* border: 5px solid yellow;
+} */ 
+
+.upperdiv{
+    width: 600px;
+    margin:-40px auto;
+    border: 3px solid white;
+    background-color: yellow;
+    color: black;
+}
+
+
+.div{
+    background-color: blueviolet;
+    color: white;
+    /* height: 500px; */
+    /* width: 60%; */
+    border: 5px solid yellow;
+
+    /* ____________Padding______________ */
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 15%;
+
+
+    /* ____________Margin______________ */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 10%;
+}
+body{
+    background-color: black;
+    border: 5px dotted white;
+    color: white;
+}

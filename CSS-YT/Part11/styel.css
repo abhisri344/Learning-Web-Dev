@@ -1,0 +1,38 @@
+ul{
+    list-style-image: url('images/arrow.png');
+    list-style-position: inside;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+li{
+    border: 2px solid black;
+}
+table{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: separate;
+    empty-cells: hide;
+    border-spacing: 15px;
+    table-layout: fixed;
+}
+caption{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+td{
+    border: 1px solid black;
+    height: 55px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+caption{
+    caption-side: bottom;
+}

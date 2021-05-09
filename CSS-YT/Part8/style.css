@@ -1,0 +1,41 @@
+div:hover{
+    border: 2px solid red;
+    width: 50vw;
+    background-color: yellow;
+    margin: 30px;
+    padding: 20px;
+    opacity: 1;
+    box-shadow: 10px 15px 10px 3px black, -10px 15px 15px 3px red;
+
+}
+div{
+    border: 2px solid red;
+    width: 50vw;
+    background-color: yellow;
+    margin: 30px;
+    padding: 20px;
+    opacity: 0.7;
+    /* box-shadow: 10px 15px 10px 3px black, -10px 15px 15px 3px red; */
+
+}
+img{
+    width: 300px;
+    height: 500px;
+}
+img:hover{
+    width: 300px;
+    height: 500px;
+
+    /* filter: blur(10px); */
+    /* filter: brightness(80%); */
+    /* filter: contrast(70%); */
+    /* filter: drop-shadow(6px 8px 10px red); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(50deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(80%); */
+    /* filter: saturate(80%); */
+    /* filter: sepia(80%); */
+    filter: blur(1px);
+
+}

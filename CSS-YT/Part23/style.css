@@ -1,0 +1,35 @@
+#div1{
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#div2{
+    width: 30%;
+    float: left;
+    background-color: rosybrown;
+    transition-property: all;
+    transition-duration: 1s;
+}
+h1{
+    font-size: 80px;
+}
+@media screen and (max-width : 768px){
+    #div1{
+        width: 50%;
+
+    }
+    #div2{
+        width: 50%;
+    }
+}
+@media screen and (max-width : 768px){
+    #div1{
+        width: 100%;
+
+    }
+    #div2{
+        width: 100%;
+    }
+}
